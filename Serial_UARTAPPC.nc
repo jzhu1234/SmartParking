@@ -1,3 +1,5 @@
+#include "IRobot.h"
+
 configuration SerialApp{
 }
 implementation{
