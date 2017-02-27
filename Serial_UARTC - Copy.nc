@@ -6,7 +6,6 @@ module SerialC {
 	uses {
 		interface Boot;
 		interface Leds;
-		interface Timer<TMilli> as Timer0; //this is being used like a signal to show that everything is fine
 		interface SplitControl as RadioControl;
 		interface SplitControl as SerialControl; //to start and stop serial section of system
 		interface UartByte; //for sending and receiving one byte at a time -- no interrupts here
